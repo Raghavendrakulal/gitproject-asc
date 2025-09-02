@@ -17,4 +17,4 @@ jobs:
         with:
           azure-devops-project-url: 'https://dev.azure.com/Raghavendra0257/asckulal'
           azure-pipeline-name: 'asckulal22'
-          azure-devops-token: ${{ 57PTceSVDKBdjTkR4VTiE8Z7LTYPoTMJDgpWAZru3j9xZIz6lb2aJQQJ99BIACAAAAAu7wMLAAASAZDO2HC6 }}
+          azure-devops-token: ${{ secrets.AZURE_DEVOPS_TOKEN }}
